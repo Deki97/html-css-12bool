@@ -10,6 +10,10 @@
     flex-wrap: wrap;
 }
 
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
 
 /* EXTRA SMALL */
 .col-xs-1 {
@@ -357,3 +361,4 @@
 .col-lg-offset-11 {
     margin-left: calc( (100% / 12) * 11);
 }
+
